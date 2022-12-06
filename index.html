@@ -1,0 +1,46 @@
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+<div align="center"  id="main">
+  
+  <div id="by">
+    <label id="byear">PLEASE ENTER YOUR BIRTH YEAR</label>
+<input  id="bby" type="number" placeholder="enter your birth year">
+
+</div>
+<br>
+<label id="cyear">PLEASE ENTER YOUR BIRTH YEAR</label>
+<input id="cy" type="number" placeholder="curent year ">
+
+<button onclick="add()">calculate</button>
+
+
+<h3 align="center" id="result">   </h3>
+
+</div>
+
+<script>
+function add(){
+var a=document.getElementById("bby").value;
+
+var b=document.getElementById("cy").value;
+var z=parseInt(b)-parseInt(a);
+
+return document.getElementById("result").innerHTML="your age is "+ z;
+
+
+alert(z);
+
+}
+
+
+</script>
+
+
+
+</body>
+
+</html>

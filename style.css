@@ -1,0 +1,59 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background-image: url(cal.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#main{
+border: 2px solid white;
+margin: auto;
+width: 200px;
+margin-top: 200px;
+margin-bottom: 200px;
+background-color: silver;
+background: rgba(0, 151, 19, 0.6);
+border-radius: 20px;
+
+}
+
+#cy{
+align-content: center;
+margin-top: 10px;
+border-radius: 50px;
+}
+#by{
+    align-content: center;
+    margin-top: 30px;
+    border-radius: 50px;
+    }
+input{
+    border-radius: 50px;
+}
+
+
+
+button{
+
+    margin-top: 30px;
+    border-radius: 50px;
+}
+button:hover{
+
+    background-color: skyblue;
+}
+#result{
+
+    text-transform: uppercase;
+    color: white;
+}
+#cyear.label{
+
+    margin-top: 5px;
+}
+#byear{
+
+    margin-top: 50px;
+}
